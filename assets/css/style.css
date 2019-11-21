@@ -1,0 +1,154 @@
+
+body {
+    background-color: #000033;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.navbar {
+   overflow: hidden;
+   background-color: #000;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1;
+  
+}
+
+.navbar a {
+    color: #0066ff;
+    font-size: 4rem;
+    margin-right: 52px;
+}
+
+.MenuLink {
+    background-color: #fff;
+    box-shadow:
+    0 0 10px 9px #fff,
+    0 0 26px 23px #ff00ff,
+    0 0 85px 44px #0066ff;
+}
+
+.glowBall {
+    position: relative;
+    top: 21px;
+    left: 52px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow:
+    0 0 10px 9px #fff,
+    0 0 26px 23px #ff00ff,
+    0 0 85px 44px #0066ff;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s; 
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    color: #eee;
+    position: absolute;
+    right: 45px;
+    top: 56px;
+    font-size: 60px;
+    font-weight: bold;
+    float: right;
+    -webkit-transition: 1s ease-out;
+    -moz-transition: 1s ease-out;
+    transition: 1s ease-out;
+
+}
+
+.closebtn:hover,
+.closebtn:focus {
+    color: #676968;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transform: rotateZ(360deg);
+    -webkit-transform-origin: center;
+    -moz-transform: rotateZ(360deg);
+    -moz-transform-origin: center;
+    transform: rotateZ(360deg);
+    transform-origin: center;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.parallax-container {
+    margin-top: 69px;
+}
+
+
+.parallax, .bannerContent {
+    height: 500px;
+    max-width: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerContent {
+    background: rgba(0, 0, 0 0.5);
+    color: #eee;
+    padding: 136px 20px 20px 20px;
+    position: absolute;
+    top: 64px;
+    text-align: center;
+}
+
+.header {
+    font-size: 11rem;
+}
+
+h5 {
+    font-size: 3.4rem;
+}
+
+
+
