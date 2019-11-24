@@ -159,10 +159,11 @@ h5 {
 .portfolioContainer {
     background: #000;
     margin-top: 4px;
+    padding-bottom: 65px;
     text-align: center;
 }
 
-h2 {
+.title {
     border-top: solid 2px #a7adba;
     margin-top: -3px;
     padding-top: 80px;
@@ -252,7 +253,7 @@ h2 {
       background-color:#000033;
       border: solid 2px #676968;
       color: #bbb;
-      box-shadow: 0px 12px 2px 1px rgba(101, 115, 126, .2);
+      box-shadow: 0px 12px 2px 1px rgba(255, 0, 255, .2);
   }
 
   h3 {
@@ -269,4 +270,63 @@ h2 {
     box-shadow: 2px 2px 5px	#343d46;
     font-size: 2rem;
     color: #bbb;
+}
+
+.aboutCard {
+    max-width: 300px;
+    border-radius: 50px;
+    border: solid 2px #0066ff;
+    background-color: #bbb;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutContainer {
+    background: #000;
+    margin-top: 4px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+.aboutTitle {
+    border-top: solid 2px #a7adba;
+    margin-top: -3px;
+    padding-top: 53px;
+    padding-bottom: 50px;
+    font-size: 7rem;
+    color: #a7adba;
+    box-shadow:
+    0 0 10px 9px #fff,
+    0 0 26px 23px #ff00ff,
+    0 0 85px 44px #0066ff;
+}
+
+.aboutRow {
+    margin-top: 89px;
+}
+
+.aboutCard a {
+    text-decoration: none;
+    font-size: 48px;
+    padding: 14px;
+    color: #343d46;
+}
+
+.myPic {
+    border-radius: 144px;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.aboutBlurb {
+    padding-top: 93px;
+    margin-left: -235px;
+    color: #818181;
 }
