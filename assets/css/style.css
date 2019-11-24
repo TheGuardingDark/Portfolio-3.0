@@ -326,7 +326,20 @@ p {
 }
 
 .aboutBlurb {
-    padding-top: 93px;
+    padding-top: 23px;
     margin-left: -235px;
     color: #818181;
+}
+
+.skills {
+    padding-right: 218px;
+}
+
+.skillsTitle {
+    font-size: 3rem;
+    color: #bbb;
+}
+
+li {
+    color: #a7adba
 }
