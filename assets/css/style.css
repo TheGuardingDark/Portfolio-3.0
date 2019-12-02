@@ -343,3 +343,58 @@ p {
 li {
     color: #a7adba
 }
+
+.hobbiesContainer {
+    background: #000;
+    margin-top: 4px;
+    padding-bottom: 128px;
+    text-align: center;
+}
+
+.hobbyTitle {
+    border-top: solid 2px #a7adba;
+    margin-top: -3px;
+    padding-top: 53px;
+    padding-bottom: 50px;
+    font-size: 7rem;
+    color: #a7adba;
+    box-shadow:
+    0 0 10px 9px #fff,
+    0 0 26px 23px #ff00ff,
+    0 0 85px 44px #0066ff;
+}
+
+.hobcon {
+    position: relative;
+    width: 240px;
+}
+
+.hobcon .hobtxt {
+    position: absolute;
+    padding-left: 5px;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.hobs {
+    padding-left: 93px;
+    margin-top: 55px;
+}
+
+footer {
+    padding: 24px 0;
+    clear: both;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+    background: #000033;
+    height: 15px;
+    color: #a7adba;
+    box-shadow:
+    0 0 10px 9px #fff,
+    0 0 26px 23px #ff00ff,
+    0 0 85px 44px #0066ff;
+  }

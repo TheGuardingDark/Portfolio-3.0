@@ -7,3 +7,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("curtainNav").style.height = "0%";
 }
+
