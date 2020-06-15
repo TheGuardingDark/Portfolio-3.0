@@ -398,3 +398,58 @@ footer {
     0 0 26px 23px #ff00ff,
     0 0 85px 44px #0066ff;
   }
+
+
+  @media only screen and (min-width: 1383px){
+
+    .navbar a {
+        position: relative;
+        left: 185px;
+    }
+
+    .glowball {
+        opacity: 0;
+    }
+
+    .overlay {
+        width: 70%;
+    }
+
+    .overlay .closebtn {
+        font-size: 212px;
+        right: 200px;
+    }
+
+    .overlay a {
+        font-size: 142px;
+    }
+
+    .overlay-content {
+        top: 21%;
+        
+    }
+
+    #bannerVid {
+        min-width: -webkit-fill-available;
+    }
+  } 
+
+  /* wait 1382 in chrome not 1366 */
+  /* original at 1366 x 768 */
+
+
+  @media only screen and (max-width: 1365px) and (min-width: 1024px) {
+
+  }
+
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+  }
+
+  @media only screen and (max-width: 767px) and (min-width: 421px) {
+
+  }
+
+  @media only screen and (max-width: 420px) {
+
+  }
